@@ -44,9 +44,9 @@ else
 fi
 
 # Configuration
-REPO_URL="https://github.com/darrenhinde/OpenAgentsControl"
+REPO_URL="https://github.com/dwillett/OpenAgentsControl"
 BRANCH="${OPENCODE_BRANCH:-main}"  # Allow override via environment variable
-RAW_URL="https://raw.githubusercontent.com/darrenhinde/OpenAgentsControl/${BRANCH}"
+RAW_URL="https://raw.githubusercontent.com/dwillett/OpenAgentsControl/${BRANCH}"
 
 # Registry URL - supports local fallback for development
 # Priority: 1) REGISTRY_URL env var, 2) Local registry.json, 3) Remote GitHub
@@ -477,7 +477,7 @@ check_interactive_mode() {
         echo "For interactive mode, download the script first:"
         echo ""
         echo -e "${CYAN}# Download the script${NC}"
-        echo "curl -fsSL https://raw.githubusercontent.com/darrenhinde/OpenAgentsControl/main/install.sh -o install.sh"
+        echo "curl -fsSL https://raw.githubusercontent.com/dwillett/OpenAgentsControl/main/install.sh -o install.sh"
         echo ""
         echo -e "${CYAN}# Run interactively${NC}"
         echo "bash install.sh"
@@ -485,7 +485,7 @@ check_interactive_mode() {
         echo "Or use a profile directly:"
         echo ""
         echo -e "${CYAN}# Quick install with profile${NC}"
-        echo "curl -fsSL https://raw.githubusercontent.com/darrenhinde/OpenAgentsControl/main/install.sh | bash -s essential"
+        echo "curl -fsSL https://raw.githubusercontent.com/dwillett/OpenAgentsControl/main/install.sh | bash -s essential"
         echo ""
         echo "Available profiles: essential, developer, business, full, advanced"
         echo ""
@@ -1416,7 +1416,7 @@ main() {
                 echo "  $0 developer"
                 echo ""
                 echo "  ${CYAN}# Install from URL (non-interactive)${NC}"
-                echo "  curl -fsSL https://raw.githubusercontent.com/darrenhinde/OpenAgentsControl/main/install.sh | bash -s developer"
+                echo "  curl -fsSL https://raw.githubusercontent.com/dwillett/OpenAgentsControl/main/install.sh | bash -s developer"
                 echo ""
                 echo -e "${BOLD}Platform Support:${NC}"
                 echo "  ✓ Linux (bash 3.2+)"

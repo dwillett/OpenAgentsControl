@@ -180,7 +180,7 @@ Ready to harvest? [y/n]: _
 
 ### Stage 1: Detect Existing Context
 
-Check: `~/.opencode/context/project-intelligence/`
+Check: `@.opencode/context/project-intelligence/`
 
 **If exists**:
 ```
@@ -485,7 +485,7 @@ Preview: technical-domain.md
 Size: {line_count} lines (limit: 200 per @mvi_compliance)
 Status: ✅ MVI compliant
 
-Save to: ~/.opencode/context/project-intelligence/technical-domain.md
+Save to: @.opencode/context/project-intelligence/technical-domain.md
 
 Looks good? [y/n/edit]: _
 ```
@@ -529,8 +529,8 @@ Done!
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 Files created:
-  ~/.opencode/context/project-intelligence/technical-domain.md
-  ~/.opencode/context/project-intelligence/navigation.md
+  @.opencode/context/project-intelligence/technical-domain.md
+  @.opencode/context/project-intelligence/navigation.md
 
 Agents now use YOUR patterns automatically!
 
@@ -543,7 +543,7 @@ What's next?
    > "Create API endpoint"
    (Uses YOUR pattern!)
 
-2. Review: cat ~/.opencode/context/project-intelligence/technical-domain.md
+2. Review: cat @.opencode/context/project-intelligence/technical-domain.md
 
 3. Add business context: /add-context --business
 
@@ -593,7 +593,7 @@ Agents stay synced!
 ### Pattern Detection (Stage 1)
 
 **Process**:
-1. Check: `ls ~/.opencode/context/project-intelligence/`
+1. Check: `ls @.opencode/context/project-intelligence/`
 2. Read: `cat technical-domain.md` (if exists)
 3. Parse existing patterns:
    - Frontmatter: version, updated date
@@ -822,16 +822,16 @@ Check code & retry.
 A: Check file exists, <200 lines. Run `/context validate`
 
 **Q: See what's in context?**
-A: `cat ~/.opencode/context/project-intelligence/technical-domain.md`
+A: `cat @.opencode/context/project-intelligence/technical-domain.md`
 
 **Q: Multiple context files?**
-A: Yes! Create in `~/.opencode/context/project-intelligence/`. Agents load all.
+A: Yes! Create in `@.opencode/context/project-intelligence/`. Agents load all.
 
 **Q: Remove pattern?**
-A: Edit directly: `nano ~/.opencode/context/project-intelligence/technical-domain.md`
+A: Edit directly: `nano @.opencode/context/project-intelligence/technical-domain.md`
 
 **Q: Share w/ team?**
-A: Yes! Commit `~/.opencode/context/project-intelligence/` to repo.
+A: Yes! Commit `@.opencode/context/project-intelligence/` to repo.
 
 **Q: Have external context files in .tmp/?**
 A: Run `/context harvest` to extract and organize them into permanent context
